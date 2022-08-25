@@ -135,3 +135,21 @@ body {
     5px 5px 15px 5px rgba(0, 0, 0, 0);
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
+
+/* MAIN */
+
+.main-container {
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  width: 70vw;
+  background-color: var(--pink);
+  margin: 30px auto;
+  height: 500px;
+}
+
+.main-heading {
+  font-family: var(--font-pixel);
+  font-size: calc(1.5rem + var(--font-scale));
+  margin-top: 1%;
+}
