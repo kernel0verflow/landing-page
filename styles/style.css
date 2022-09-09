@@ -242,3 +242,33 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+
+/* Quote Section */
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 70vw;
+  background-color: var(--pink);
+  height: 200px;
+}
+
+.quote {
+  font-family: var(--font-pixel);
+  font-size: calc(0.8rem + var(--font-scale));
+  color: var(--blue);
+  text-align: center;
+  margin: 0 auto;
+}
+.pabsolute {
+  position: absolute;
+}
+
+.quote-author {
+  position: relative;
+  top: 70px;
+  right: -700px;
+}
