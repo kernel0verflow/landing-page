@@ -75,8 +75,9 @@ body {
   width: 70vw;
   min-width: 30vw;
   background-color: var(--light-violet);
-  height: 50vh;
+  height: 800px;
   font-size: calc(2 rem + var(--font-scale));
+  overflow: hidden;
 }
 
 .nav-container {
@@ -205,7 +206,7 @@ body {
   background-color: var(--pink);
   margin: 30px auto;
   padding-top: 50px;
-  height: 800px;
+  height: 25vh;
 }
 
 .main-heading {
@@ -237,8 +238,8 @@ body {
 }
 .icons {
   margin-top: 75px;
-  height: 150px;
-  width: 150px;
+  height: 7vh;
+  width: 7vh;
   display: flex;
   justify-content: space-evenly;
 }
@@ -258,17 +259,29 @@ body {
 
 .quote {
   font-family: var(--font-pixel);
-  font-size: calc(0.8rem + var(--font-scale));
+  font-size: 1vw;
   color: var(--blue);
-  text-align: center;
   margin: 0 auto;
 }
 .pabsolute {
   position: absolute;
+  display: inline-block;
 }
 
 .quote-author {
   position: relative;
-  top: 70px;
-  right: -700px;
+  top: 2vw;
+  left: 25vw;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  margin: 30px auto;
+  padding-top: 50px;
+  width: 70vw;
+  background-color: var(--pink);
+  height: 25vh;
+}
+/* MEDIA QUERIES */
