@@ -76,7 +76,7 @@ body {
   width: 70vw;
   min-width: 30vw;
   background-color: var(--light-violet);
-  height: 800px;
+  height: auto;
   font-size: calc(2 rem + var(--font-scale));
   overflow: hidden;
 }
@@ -137,7 +137,7 @@ body {
 }
 
 .header-content {
-  margin-top: 100px;
+  margin-top: 75px;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -184,8 +184,10 @@ body {
 }
 
 .about-btn-container {
-  margin-left: 30px;
-  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  align-items: center;
 }
 
 .header-about {
@@ -222,7 +224,7 @@ body {
   background-color: var(--pink);
   margin: 30px auto;
   padding-top: 50px;
-  height: 25vh;
+  height: auto;
 }
 
 .main-heading {
@@ -268,26 +270,24 @@ body {
   justify-content: center;
   margin: 0 auto;
   padding-top: 50px;
+  padding-bottom: 50px;
   width: 70vw;
   background-color: var(--pink);
-  height: 200px;
+  height: auto;
 }
 
 .quote {
   font-family: var(--font-pixel);
-  font-size: 1vw;
+  font-size: calc(1rem + var(--font-scale));
   color: var(--blue);
-  margin: 0 auto;
-}
-.pabsolute {
-  position: absolute;
-  display: inline-block;
+  overflow-wrap: break-word;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .quote-author {
-  position: relative;
-  top: 2vw;
-  left: 25vw;
+  text-align: right;
+  margin-top: 15px;
 }
 
 .footer-container {
@@ -316,5 +316,27 @@ body {
   }
   .hamburger {
     display: block;
+  }
+
+  .header-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+  }
+  
+  .pb-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-btn-container {
+    justify-content: center;
+  }
+
+  .icons-container {
+    flex-direction: column;
+    align-items: center;
   }
 }
