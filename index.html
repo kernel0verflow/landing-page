@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta
       name="description"
       content="Welcome to my Portfolio. I am a Web Developer."
@@ -15,8 +22,13 @@
     <header class="header-container">
       <nav class="nav-container">
         <h1 class="page-logo">Marcel Schliwka | Portfolio</h1>
-        <ul class="nav-list">
-          <li class="nav-element"><a href="#" class="nav-link">[HOME]</a></li>
+        <button class="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-list mobile-menu">
+          <li class="nav-element">
+            <a href="#" class="nav-link active">[HOME]</a>
+          </li>
           <li class="nav-element">
             <a href="#" class="nav-link">[PROJECTS]</a>
           </li>
@@ -35,7 +47,7 @@
       </nav>
       <div class="header-content">
         <div class="header-left">
-          <h2 class="heading-2">Welcome to my Landing Page!</h2>
+          <h2 class="heading-2">Welcome to my website!</h2>
           <p class="header-text">
             Welcome to my personal Portfolio! <br /><br />
             Here you can find some information about me, which might be usefull.
@@ -50,7 +62,7 @@
         </div>
         <div class="header-right">
           <img src="img/pb_about.jpeg" alt="" class="pb-img" />
-          <h2 class="heading-2">That's me!</h2>
+          <h2 class="heading-2">Photo of mine!</h2>
         </div>
       </div>
     </header>
@@ -98,14 +110,19 @@
     </main>
 
     <section class="quote-section">
-      <blockquote class="quote pabsolute">
+      <blockquote class="quote">
         “Sometimes it is the people no one can imagine anything of who do the
         things no one can imagine.”
+        <p class="quote-author">- Alan Turing</p>
       </blockquote>
-      <span class="quote-author quote">- Alan Turing</span>
     </section>
 
-    <footer class="footer-container"></footer>
+    <footer class="footer-container">
+      <div class="footer-content-container">
+        <p class="footer-text">&copy 2022 - Marcel Schliwka - <a href="https://marcelschliwka.de">marcelschliwka.de</a> - <a href="#">Impressum</a></p>
+      </div>
+      </div>
+    </footer>
     <script src="scripts/app.js"></script>
   </body>
 </html>
