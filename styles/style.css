@@ -316,6 +316,7 @@ body {
 }
 .footer-text-wrapper {
   display: flex;
+  flex-direction: row;
 }
 
 .footer-text a {
