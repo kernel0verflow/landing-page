@@ -5,9 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/impressum.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Impressum</title>
   </head>
   <body>
-    <h1 class="page-logo">This is a Test</h1>
+    <header class="header-container">
+      <nav class="nav-container">
+        <h1 class="page-logo">Marcel Schliwka | Portfolio</h1>
+        <button class="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-list mobile-menu">
+          <li class="nav-element">
+            <a href="index.html" class="nav-link">[HOME]</a>
+          </li>
+          <li class="nav-element">
+            <a href="#" class="nav-link">[PROJECTS]</a>
+          </li>
+          <li class="nav-element">
+            <a href="#" class="nav-link">[ABOUT]</a>
+          </li>
+          <li class="nav-element">
+            <a href="#" class="nav-link">[CONTACT]</a>
+          </li>
+          <li class="nav-element">
+            <a href="#" class="nav-link"
+              ><img src="img/dark-mode.png" alt="" class="invert-img"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-container impressum-container">
+      <h2 class="main-heading">IMPRESSUM</h2>
+      <div class="content">
+        <h3 class="content-title icon-text">Kontaktdaten</h3>
+        <p class="impressum-text">Marcel Schliwka</p>
+        <p class="impressum-text">marcelschliwka@protonmail.com</p>
+        <p class="impressum-text">Zwickau</p>
+      </div>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-content-container">
+          <div class="footer-text-wrapper">
+            <p class="footer-text">&copy 2022</p>
+            <p class="footer-trenner footer-text">&nbsp-&nbsp</p>
+            <p class="footer-text">Marcel Schliwka</p>
+            <p class="footer-trenner footer-text">&nbsp-&nbsp</p>
+            <p class="footer-text"><a href="https://marcelschliwka.de">marcelschliwka.de</a></p>
+            <p class="footer-trenner footer-text">&nbsp-&nbsp</p>
+            <p class="footer-text"><a href="impressum.html" class="active">Impressum</a></p>
+          </div>
+        </div>
+        </div>
+      </footer>
+
+    <script src="scripts/app.js"></script>
   </body>
 </html>
