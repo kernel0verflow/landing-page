@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Silkscreen";
+  src: url(../fonts/Silkscreen-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Silkscreen, sans-serif;
+}
+
+body {
+  background-color: black;
+}
+.snap-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.snapcode {
+  width: 25em;
+  height: 25em;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #99629e;
+}
