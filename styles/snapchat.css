@@ -13,7 +13,7 @@
   }
   100% {
     transform: translateY(0);
-    opacity: 100%;
+    opacity: 1;
   }
 }
 
@@ -24,7 +24,7 @@
   }
   100% {
     transform: translateY(0);
-    opacity: 100%;
+    opacity: 1;
   }
 }
 
@@ -33,7 +33,7 @@
     opacity: 0;
   }
   100% {
-    opacity: 100%;
+    opacity: 1;
   }
 }
 html {
@@ -56,7 +56,9 @@ body {
 .snapcode {
   width: 25em;
   height: 25em;
-  animation: 2s ease-in 1s 1 scaleUp;
+  animation: 1s ease-in .5s 1 scaleUp;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 
 h1,
@@ -73,9 +75,13 @@ a {
 
 h1,
 h2 {
-  animation: 1s ease-out 0s 1 slideInFromTop;
+  animation: 1s ease-in 0s 1 slideInFromTop;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 h3 {
-  animation: 1s ease-out 0s 1 slideInFromBottom;
+  animation: 1s ease-in 0s 1 slideInFromBottom;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
